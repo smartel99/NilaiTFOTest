@@ -1,0 +1,7 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+application.hpp:38:17:static void cep::Application::AssertFailed()	4	static
+logger.hpp:107:20:static Logger* Logger::Get()	4	static
+main.cpp:26:5:int main()	64	static
+main.cpp:58:24:void SystemClock_Config()	88	static
+main.cpp:104:6:void Error_Handler()	8	static
+main.cpp:120:6:void assert_failed(uint8_t*, uint32_t)	16	static

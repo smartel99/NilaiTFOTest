@@ -1,0 +1,25 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+std_function.h:271:5:std::_Function_base::_Function_base()	16	static
+std_function.h:273:5:std::_Function_base::~_Function_base()	16	static
+std_function.h:279:10:bool std::_Function_base::_M_empty() const	16	static
+std_function.h:389:11:std::function<void(const char*, unsigned int)>::~function()	16	static
+logger.hpp:107:20:static Logger* Logger::Get()	4	static
+application.hpp:38:17:static void cep::Application::AssertFailed()	4	static
+logger.cpp:25:1:Logger::Logger(UartModule*, const LogFunc&)	56	static
+logger.hpp:93:7:Logger::~Logger()	16	static
+logger.cpp:44:6:)	28	static
+logger.cpp:54:6:void Logger::VLog(const char*, va_list)	64	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = unsigned int]	16	static
+std_function.h:414:7:)>::function() [with _Res = void; _ArgTypes = {const char*, unsigned int}]	16	static
+std_function.h:480:7:)>&) [with _Res = void; _ArgTypes = {const char*, unsigned int}]	32	static
+std_function.h:582:16:)>::operator bool() const [with _Res = void; _ArgTypes = {const char*, unsigned int}]	16	static
+std_function.h:701:5:) const [with _Res = void; _ArgTypes = {const char*, unsigned int}]	40	static
+std_function.h:671:5:)>&) [with _Res = void; _ArgTypes = {const char*, unsigned int}]	16	static
+std_function.h:565:12:)>&) [with _Res = void; _ArgTypes = {const char*, unsigned int}]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const char*]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::_Any_data&]	16	static
+move.h:187:5:typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&) [with _Tp = std::_Any_data]	24	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = bool (*&)(std::_Any_data&, const std::_Any_data&, std::_Manager_operation)]	16	static
+move.h:187:5:typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&) [with _Tp = bool (*)(std::_Any_data&, const std::_Any_data&, std::_Manager_operation)]	24	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = void (*&)(const std::_Any_data&, const char*&&, unsigned int&&)]	16	static
+move.h:187:5:typename std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> >::value>::type std::swap(_Tp&, _Tp&) [with _Tp = void (*)(const std::_Any_data&, const char*&&, unsigned int&&)]	24	static

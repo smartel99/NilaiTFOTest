@@ -1,0 +1,9 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+application.hpp:38:17:static void cep::Application::AssertFailed()	4	static
+compilerDefines.cpp:16:7:void* operator new(std::size_t)	16	static
+compilerDefines.cpp:21:7:void* operator new [](std::size_t)	16	static
+compilerDefines.cpp:26:6:void operator delete(void*)	16	static
+compilerDefines.cpp:31:6:void operator delete [](void*)	16	static
+compilerDefines.cpp:36:6:void operator delete(void*, size_t)	16	static
+compilerDefines.cpp:41:6:void operator delete [](void*, size_t)	16	static
+compilerDefines.cpp:47:17:void __cxa_pure_virtual()	8	static
